@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>71E36B12-3551-4E13-AE53-0BDB630D1C42</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LayerIdentity</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0FB9E53BDD6C1F88D934BC822B398A281888698C</key>
+		<string>https://github.com/layerhq/layer-auth-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LayerIdentity/LayerIdentity.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0FB9E53BDD6C1F88D934BC822B398A281888698C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/layerhq/layer-auth-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0FB9E53BDD6C1F88D934BC822B398A281888698C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0FB9E53BDD6C1F88D934BC822B398A281888698C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>layer-auth-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

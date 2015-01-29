@@ -1,0 +1,5 @@
+#include "Pods-LayerIdentity-LayerIdentity.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/LayerIdentity" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/LayerIdentity" "${PODS_ROOT}/Headers/Public/LayerKit"
+OTHER_LDFLAGS = ${PODS_LAYERIDENTITY_LAYERIDENTITY_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
