@@ -17,7 +17,7 @@
 
 @implementation LYRIdentityManager
 
-NSString *const LYRIdentityProviderBaseURL = @"https://layer-identity-provider.herokuapp.com/identity_tokens";
+NSString *const LYRIdentityProviderBaseURL = @"https://layer-identity-provider.herokuapp.com";
 
 + (instancetype)managerWithLayerAppID:(NSUUID *)layerAppID
 {
@@ -43,19 +43,21 @@ NSString *const LYRIdentityProviderBaseURL = @"https://layer-identity-provider.h
 - (NSURLSession *)defaultURLSession
 {
     NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration ephemeralSessionConfiguration];
-    configuration.HTTPAdditionalHeaders = @{@"Accept": @"application/json", @"Content-Type": @"application/json", @"X_LAYER_APP_ID": self.layerAppID};
+    configuration.HTTPAdditionalHeaders = @{@"Accept": @"application/json", @"Content-Type": @"application/json", @"X_LAYER_APP_ID": self.layerAppID.UUIDString};
     return [NSURLSession sessionWithConfiguration:configuration];
 }
 
 - (void)identityTokenForUserIdentifier:(NSString *)userIdentifier nonce:(NSString *)nonce completion:(void (^)(NSString *, NSError *))completion
 {
-    NSURL *identityTokenURL = [NSURL URLWithString:LYRIdentityProviderBaseURL];
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:identityTokenURL];
+    NSString *urlString = [NSString stringWithFormat:@"apps/%@/atlas_identities", self.layerAppID.UUIDString];
+    NSURL *URL = [NSURL URLWithString:urlString relativeToURL:[NSURL URLWithString:LYRIdentityProviderBaseURL]];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:URL];
     request.HTTPMethod = @"POST";
 
-    NSDictionary *parameters = @{ @"app_id": self.layerAppID, @"user_id": userIdentifier, @"nonce": nonce };
+    NSDictionary *parameters = @{ @"name": userIdentifier, @"nonce": nonce };
     NSData *requestBody = [NSJSONSerialization dataWithJSONObject:parameters options:0 error:nil];
     request.HTTPBody = requestBody;
+    [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     
     [[self.URLSession dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         if (error) {

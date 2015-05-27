@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-LayerIdentity-LayerIdentity.xcscheme</key>
+		<key>Pods-LayerIdentity.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-LayerIdentity.xcscheme</key>
+		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>202CF01DAF427CEA3142D925</key>
+		<key>777AA13347A9A17D3007ACE4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EE7C17DC5F4AB1989EA9E4FE</key>
+		<key>E609084CDCCD894FE1079029</key>
 		<dict>
 			<key>primary</key>
 			<true/>

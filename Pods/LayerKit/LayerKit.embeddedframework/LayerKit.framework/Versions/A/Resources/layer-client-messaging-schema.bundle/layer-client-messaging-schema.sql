@@ -1,3 +1,8 @@
+CREATE TABLE "block_list" (
+user_id TEXT NOT NULL,
+synced_at DATETIME,
+unblocked_at DATETIME);
+
 CREATE TABLE "conversation_participants" (
   database_identifier INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
   conversation_database_identifier INTEGER NOT NULL,
@@ -20,13 +25,18 @@ CREATE TABLE "conversations" (
   deleted_at DATETIME,
   object_identifier TEXT UNIQUE NOT NULL,
   version INT NOT NULL
-, has_unread_messages INTEGER NOT NULL DEFAULT 0);
+, has_unread_messages INTEGER NOT NULL DEFAULT 0, is_distinct INTEGER NOT NULL DEFAULT 0);
+
+CREATE TABLE "deleted_message_parts" (
+  database_identifier INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  file_path TEXT
+);
 
 CREATE TABLE event_content_parts (
   event_content_part_id INTEGER NOT NULL,
   event_database_identifier INTEGER NOT NULL,
   type TEXT NOT NULL,
-  value BLOB,
+  value BLOB, access_expiration INTEGER, url TEXT, size INTEGER,
   FOREIGN KEY(event_database_identifier) REFERENCES events(database_identifier) ON DELETE CASCADE,
   PRIMARY KEY(event_content_part_id, event_database_identifier)
 );
@@ -44,8 +54,7 @@ CREATE TABLE "events" (
   member_id TEXT,
   target_seq INTEGER,
   stream_database_identifier INTEGER NOT NULL,
-  version INTEGER, 
-  client_id TEXT,
+  client_id BLOB, creator_name TEXT,
   UNIQUE(stream_database_identifier, seq),
   FOREIGN KEY(stream_database_identifier) REFERENCES streams(database_identifier) ON DELETE CASCADE
 );
@@ -62,13 +71,20 @@ CREATE TABLE local_keyed_values (
   UNIQUE(object_type, object_id, key)
 );
 
-CREATE TABLE "message_parts" (
-  database_identifier INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-  message_database_identifier INTEGER NOT NULL,
-  mime_type TEXT NOT NULL,
-  content BLOB,
-  url TEXT,
-  FOREIGN KEY(message_database_identifier) REFERENCES messages(database_identifier) ON DELETE CASCADE
+CREATE TABLE message_parts (
+    database_identifier INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    message_database_identifier INTEGER NOT NULL,
+    mime_type TEXT NOT NULL,
+    content BLOB,
+    url TEXT,
+    access_expiration INTEGER,
+    file_path TEXT,
+    size INTEGER,
+    access_time DATETIME,
+    object_identifier TEXT,
+    pruned BOOLEAN,
+    transfer_status INTEGER, version INT NOT NULL DEFAULT 0,
+    FOREIGN KEY(message_database_identifier) REFERENCES messages(database_identifier) ON DELETE CASCADE
 );
 
 CREATE TABLE "message_recipient_status" (
@@ -87,13 +103,13 @@ CREATE TABLE "messages" (
   sent_at DATETIME,
   received_at DATETIME,
   deleted_at DATETIME,
-  user_id TEXT NOT NULL,
+  user_id TEXT,
   seq INTEGER,
   conversation_database_identifier INTEGER NOT NULL,
   event_database_identifier INTEGER UNIQUE,
   version INTEGER NOT NULL,
   object_identifier TEXT UNIQUE NOT NULL,
-  message_index INTEGER, is_unread INTEGER NOT NULL DEFAULT 0,
+  message_index INTEGER, is_unread INTEGER NOT NULL DEFAULT 0, user_name TEXT,
   UNIQUE(conversation_database_identifier, seq),
   FOREIGN KEY(conversation_database_identifier) REFERENCES conversations(database_identifier) ON DELETE CASCADE,
   FOREIGN KEY(event_database_identifier) REFERENCES events(database_identifier) ON DELETE CASCADE
@@ -130,11 +146,11 @@ CREATE TABLE "streams" (
   stream_id BLOB UNIQUE,
   seq INTEGER NOT NULL DEFAULT 0,
   client_seq INTEGER NOT NULL DEFAULT 0,
-  version INTEGER, 
-  client_id TEXT, 
+  client_id BLOB, 
   deleted_at DATETIME, 
   min_synced_seq INTEGER, 
-  max_synced_seq INTEGER, metadata_timestamp INTEGER);
+  max_synced_seq INTEGER, metadata_timestamp INTEGER, is_distinct INTEGER NOT NULL DEFAULT 0
+);
 
 CREATE TABLE syncable_changes (
   change_identifier INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
@@ -151,6 +167,8 @@ CREATE TABLE synced_changes (
 );
 
 
+CREATE INDEX block_list_user_id_idx ON block_list(user_id);
+
 CREATE INDEX conversation_participants_conversation_database_identifier_idx ON conversation_participants(conversation_database_identifier);
 
 CREATE INDEX conversation_participants_deleted_at_idx ON conversation_participants(deleted_at);
@@ -158,6 +176,8 @@ CREATE INDEX conversation_participants_deleted_at_idx ON conversation_participan
 CREATE INDEX conversation_participants_event_database_identifier_idx ON conversation_participants(event_database_identifier);
 
 CREATE INDEX conversations_deleted_at_idx ON conversations(deleted_at);
+
+CREATE INDEX conversations_has_unread_messages_idx ON conversations(has_unread_messages);
 
 CREATE INDEX conversations_stream_database_identifier_idx ON conversations(stream_database_identifier);
 
@@ -169,8 +189,6 @@ CREATE INDEX events_seq_idx ON events(seq);
 
 CREATE INDEX events_stream_database_identifier_idx ON events(stream_database_identifier);
 
-CREATE INDEX message_parts_message_database_identifier_idx ON message_parts(message_database_identifier);
-
 CREATE INDEX message_recipient_status_message_database_identifier_idx ON message_recipient_status(message_database_identifier);
 
 CREATE INDEX messages_conversation_database_identifier_idx ON messages(conversation_database_identifier);
@@ -178,6 +196,8 @@ CREATE INDEX messages_conversation_database_identifier_idx ON messages(conversat
 CREATE INDEX messages_deleted_at_idx ON messages(deleted_at);
 
 CREATE INDEX messages_event_database_identifier_idx ON messages(event_database_identifier);
+
+CREATE INDEX messages_is_unread_idx ON messages(is_unread);
 
 CREATE INDEX messages_message_index_idx ON messages(message_index);
 
@@ -192,13 +212,13 @@ CREATE INDEX streams_deleted_at_idx ON streams(deleted_at);
 CREATE INDEX synced_changes_table_name_idx ON synced_changes(table_name);
 
 
-CREATE TRIGGER tombstone_duplicate_events_by_client_id 
+CREATE TRIGGER tombstone_duplicate_events_by_client_id
 AFTER INSERT ON events
 FOR EACH ROW WHEN NEW.client_id IS NOT NULL
 BEGIN
-	UPDATE events SET type = 10 
-	WHERE database_identifier = NEW.database_identifier
-	AND (SELECT count(*) FROM events WHERE client_id = NEW.client_id) > 1;
+       UPDATE events SET type = 10
+       WHERE database_identifier = NEW.database_identifier
+       AND (SELECT count(*) FROM events WHERE client_id = NEW.client_id) > 1;
 END;
 
 CREATE TRIGGER track_deletes_of_conversation_participants AFTER UPDATE OF deleted_at ON conversation_participants
@@ -256,15 +276,15 @@ BEGIN
 END;
 
 CREATE TRIGGER track_inserts_of_events_delete
-AFTER INSERT ON events FOR EACH ROW 
+AFTER INSERT ON events FOR EACH ROW
 WHEN NEW.seq IS NOT NULL AND NEW.type = 9 AND NOT EXISTS (SELECT 1 FROM events WHERE client_id = NEW.client_id AND database_identifier != NEW.database_identifier)
 BEGIN
   INSERT OR IGNORE INTO synced_changes(table_name, row_identifier, change_type) VALUES ('events', (SELECT database_identifier FROM events WHERE stream_database_identifier = NEW.stream_database_identifier AND seq = NEW.target_seq), 2);
-  UPDATE events SET type = 10, subtype = NULL, external_content_id = NULL, member_id = NULL, target_seq = NULL, version = NULL WHERE database_identifier = (SELECT database_identifier FROM events WHERE stream_database_identifier = NEW.stream_database_identifier AND seq = NEW.target_seq);
+  UPDATE events SET type = 10, subtype = NULL, external_content_id = NULL, member_id = NULL, target_seq = NULL WHERE database_identifier = (SELECT database_identifier FROM events WHERE stream_database_identifier = NEW.stream_database_identifier AND seq = NEW.target_seq);
 END;
 
 CREATE TRIGGER track_inserts_of_events_non_delete
-AFTER INSERT ON events FOR EACH ROW 
+AFTER INSERT ON events FOR EACH ROW
 WHEN NEW.seq IS NOT NULL AND NEW.type != 9 AND NOT EXISTS (SELECT 1 FROM events WHERE client_id = NEW.client_id AND database_identifier != NEW.database_identifier)
 BEGIN
   INSERT INTO synced_changes(table_name, row_identifier, change_type) VALUES ('events', NEW.database_identifier, 0);
@@ -349,6 +369,12 @@ BEGIN
   INSERT INTO synced_changes(table_name, row_identifier, change_type) VALUES ('remote_keyed_values', NEW.database_identifier, 1);
 END;
 
+CREATE TRIGGER track_updates_of_stream_id_for_events AFTER UPDATE OF stream_database_identifier ON events
+WHEN NEW.stream_database_identifier IS NOT NULL AND OLD.stream_database_identifier IS NOT NULL AND NEW.stream_database_identifier != OLD.stream_database_identifier
+BEGIN
+  INSERT INTO synced_changes(table_name, row_identifier, change_type) VALUES ('events', NEW.database_identifier, 1);
+END;
+
 CREATE TRIGGER track_updates_of_streams AFTER UPDATE OF stream_id ON streams
 WHEN NEW.stream_id IS NOT NULL AND OLD.stream_id IS NULL
 BEGIN
@@ -412,3 +438,19 @@ INSERT INTO schema_migrations (version) VALUES (20141027152445461);
 INSERT INTO schema_migrations (version) VALUES (20141105082802353);
 
 INSERT INTO schema_migrations (version) VALUES (20141110114425514);
+
+INSERT INTO schema_migrations (version) VALUES (20141124205020533);
+
+INSERT INTO schema_migrations (version) VALUES (20150131122302694);
+
+INSERT INTO schema_migrations (version) VALUES (20150202170209118);
+
+INSERT INTO schema_migrations (version) VALUES (20150207191203003);
+
+INSERT INTO schema_migrations (version) VALUES (20150210133608257);
+
+INSERT INTO schema_migrations (version) VALUES (20150316180034638);
+
+INSERT INTO schema_migrations (version) VALUES (20150319131356212);
+
+INSERT INTO schema_migrations (version) VALUES (20150330135300206);

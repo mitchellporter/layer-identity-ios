@@ -1,1429 +1,554 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0619C946F57B388EC14EDEDA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-LayerIdentity-LayerIdentity-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0853CE3600912CB071E24C53</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4E905D1E529B1F2DB373035C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-LayerIdentity-LayerIdentity/Pods-LayerIdentity-LayerIdentity-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0B26049B74F881CE5EEB258F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-LayerIdentity-LayerIdentity.a</string>
-			<key>path</key>
-			<string>libPods-LayerIdentity-LayerIdentity.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>0B28E5BA9DE9270055751825</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20140707175635814_add_is_draft_to_messages.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140707175635814_add_is_draft_to_messages.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0D9F140C338AC681E316CDCB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYRIdentityManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0FA7984D060C4DFEA7873F33</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B66EE9C2A9B6E78402A9015C</string>
-				<string>45A5C222CE264F8108790323</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>10A27A7430B8F25AC4C5FDC0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20140717021208447_restore-lost-triggers.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140717021208447_restore-lost-triggers.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13A2776351570F4B9D4D7057</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>28F4DFF861DD1D034962615E</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>1AA77C1B7D6001990509F0F9</string>
-			<key>productRefGroup</key>
-			<string>ACCA4D3835AD8D428502C1F9</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>EE7C17DC5F4AB1989EA9E4FE</string>
-				<string>202CF01DAF427CEA3142D925</string>
-			</array>
-		</dict>
-		<key>1797AE9EFBAD869775E48E33</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20141027152445461_fix_invalid_identifier_types.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141027152445461_fix_invalid_identifier_types.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1AA77C1B7D6001990509F0F9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4ED41F5E19B95E3CDD8C20F9</string>
-				<string>940BE97202808A1C74557C88</string>
-				<string>299DD7F5A6BF90CFCA1F9821</string>
-				<string>376A60407C41160047202476</string>
-				<string>ACCA4D3835AD8D428502C1F9</string>
-				<string>494340ACE4E304679BE2D790</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1FA8D443F22DA0CDA0166BA0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>40EB96590F5F8005B8760165</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1FDCFA36E6C04481F9DFD002</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.plug-in</string>
-			<key>name</key>
-			<string>layer-client-messaging-schema.bundle</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>202CF01DAF427CEA3142D925</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>7B7ADA5E230542D2F359B86D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E92FE9794E9CE5B54F540725</string>
-				<string>74C2796859CC2E8DFA0F1E6D</string>
-				<string>2E85B33DCB8296A005C90212</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-LayerIdentity-LayerIdentity</string>
-			<key>productName</key>
-			<string>Pods-LayerIdentity-LayerIdentity</string>
-			<key>productReference</key>
-			<string>0B26049B74F881CE5EEB258F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>22FFD40510C48DFB416E483D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-LayerIdentity-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>28F4DFF861DD1D034962615E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2F6B14DA2A1D979ED9A55FC2</string>
-				<string>B16FDD01FC93349FE80985B0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>299DD7F5A6BF90CFCA1F9821</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CC0E0C064831C93C83DDEB52</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2E85B33DCB8296A005C90212</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5003A1A71FF7C6B51F8D3CBA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2F6B14DA2A1D979ED9A55FC2</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>365E432B19CCFD0DC5203062</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20141006140917614_add-client_id.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141006140917614_add-client_id.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>376A60407C41160047202476</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5EB3AE4AC1AE81B29A704ECC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B3A5B09049ACCE5A0D3A84B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20140715104949748_drop_message_index_table_add_message_index_column.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140715104949748_drop_message_index_table_add_message_index_column.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B7E7388524155F00268355A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>72B44B502A2C72EEB70C5A0F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E79FE0EC94739A38E763937</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LayerIdentity-LayerIdentity.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>40EB96590F5F8005B8760165</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>41CDB1FC756A4697C56242C6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>92787AA1908F7BD4177DA4D4</string>
-				<string>91932A71BF5BE8ACF894C1D6</string>
-				<string>6081E0ACE3B7E2C416F6868A</string>
-				<string>E6000B9D1AC5FB32D58B39F1</string>
-				<string>8A0F68E7EFC2A24E9B6C0B3B</string>
-				<string>BD7A02FBADAA4C4F9939AE8E</string>
-				<string>F57C9229560A3B19E8AE0D07</string>
-				<string>0B28E5BA9DE9270055751825</string>
-				<string>5869FBFD6C9872382D52FF22</string>
-				<string>816489DFC49A0BDF3A54A20A</string>
-				<string>DC5C88202E5CEB1F0CB78CBD</string>
-				<string>3B3A5B09049ACCE5A0D3A84B</string>
-				<string>838B35F8ED1BA24304E4B880</string>
-				<string>10A27A7430B8F25AC4C5FDC0</string>
-				<string>49960ABC3A38E31A4EE4020D</string>
-				<string>63FF6A9562EF6DD8CB0E746C</string>
-				<string>E983067C9D8B49AD1A9F604E</string>
-				<string>8A898442200429C864D1D47F</string>
-				<string>E767FB41046D646A2895C92F</string>
-				<string>5B6E9CAB4C3508CE131C47FF</string>
-				<string>365E432B19CCFD0DC5203062</string>
-				<string>CF9A4B66C75B327153D4F59A</string>
-				<string>B1633786F85DAB69DD5C2F6A</string>
-				<string>577F64EFAAB6A0BFEE564339</string>
-				<string>762FE7E463198EB6A494A619</string>
-				<string>1797AE9EFBAD869775E48E33</string>
-				<string>FCB65CE270EACA3A381BA31C</string>
-				<string>91B374462845A9F6F3620408</string>
-				<string>1FDCFA36E6C04481F9DFD002</string>
-				<string>8F79CC3B717D3457616C60EC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>45A5C222CE264F8108790323</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>97AEDC56D49969161DA93A0B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>494340ACE4E304679BE2D790</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7323BA3901DCFDC02EB58476</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>49960ABC3A38E31A4EE4020D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20140806143305965_add_created_at_to_conversations.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140806143305965_add_created_at_to_conversations.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4A09EA7B6C5792142EC29F57</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93C117BF21FAB3491CFB08CC</string>
-				<string>0D9F140C338AC681E316CDCB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Code</string>
-			<key>path</key>
-			<string>Code</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E905D1E529B1F2DB373035C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LayerIdentity-LayerIdentity-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4ED41F5E19B95E3CDD8C20F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>5003A1A71FF7C6B51F8D3CBA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93C117BF21FAB3491CFB08CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5661C77A22EC189F846F72F6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0D9F140C338AC681E316CDCB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>577F64EFAAB6A0BFEE564339</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20141009125004707_min-max-synced-seq.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141009125004707_min-max-synced-seq.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5869FBFD6C9872382D52FF22</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20140708092626927_adjust_triggers_for_drafting.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140708092626927_adjust_triggers_for_drafting.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5B6E9CAB4C3508CE131C47FF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20141002175510495_track_streams_and_stream_members_with_deleted_at_column.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141002175510495_track_streams_and_stream_members_with_deleted_at_column.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5EB3AE4AC1AE81B29A704ECC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3B7E7388524155F00268355A</string>
-				<string>41CDB1FC756A4697C56242C6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>LayerKit</string>
-			<key>path</key>
-			<string>LayerKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5EFA1701F31C22E7F4DDC8EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>91C0D724C03CAB6E2D54B905</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6081E0ACE3B7E2C416F6868A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20140701095427050_add_trigger_for_messaging_receipts.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140701095427050_add_trigger_for_messaging_receipts.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>63FF6A9562EF6DD8CB0E746C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20140820112730372_add_unique_constraint_to_message_recipient_status.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140820112730372_add_unique_constraint_to_message_recipient_status.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6472BEA244D5A1C61046140C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A963BC8EB58A90214CC27E85</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>69E566144D0E5E117E649407</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8E657F722603420FA99EADE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>72B44B502A2C72EEB70C5A0F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>LayerKit.framework</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7323BA3901DCFDC02EB58476</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>79EA2B4763BD9051478119A1</string>
-				<string>22FFD40510C48DFB416E483D</string>
-				<string>A963BC8EB58A90214CC27E85</string>
-				<string>A55CF5D7418C05EAE11EF580</string>
-				<string>F7FA257DE699C9513F31845A</string>
-				<string>8936284416286B7D5EFDD7CC</string>
-				<string>97AEDC56D49969161DA93A0B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-LayerIdentity</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-LayerIdentity</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>74C2796859CC2E8DFA0F1E6D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>79B53360BE2D505FB4D00C66</string>
-				<string>1FA8D443F22DA0CDA0166BA0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>762FE7E463198EB6A494A619</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20141009125010758_indices.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141009125010758_indices.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79B53360BE2D505FB4D00C66</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8E657F722603420FA99EADE4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79EA2B4763BD9051478119A1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-LayerIdentity-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7B7ADA5E230542D2F359B86D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0853CE3600912CB071E24C53</string>
-				<string>E8DAFEB20CFB9C897FD86B6D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>816489DFC49A0BDF3A54A20A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20140708154438053_change_insert_trigger_on_messages.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140708154438053_change_insert_trigger_on_messages.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>838B35F8ED1BA24304E4B880</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20140717013309255_drop_is_draft_from_messages.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140717013309255_drop_is_draft_from_messages.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8936284416286B7D5EFDD7CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LayerIdentity.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8A0F68E7EFC2A24E9B6C0B3B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20140701144934637_adjust_constraints_of_receipts_table.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140701144934637_adjust_constraints_of_receipts_table.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8A898442200429C864D1D47F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20141002091849299_correct-track_inserts_of_events_delete.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141002091849299_correct-track_inserts_of_events_delete.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E657F722603420FA99EADE4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>8F79CC3B717D3457616C60EC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>layer-client-messaging-schema.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/layer-client-messaging-schema.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>91932A71BF5BE8ACF894C1D6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20140628114921198_remove_creator_id_from_tombstone_wipe_for_ordering.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140628114921198_remove_creator_id_from_tombstone_wipe_for_ordering.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>91B374462845A9F6F3620408</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20141110114425514_remote_keyed_values.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141110114425514_remote_keyed_values.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>91C0D724C03CAB6E2D54B905</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-LayerIdentity-LayerIdentity-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>92787AA1908F7BD4177DA4D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20140628105322170_drop_and_clean_case_indent_dates_uniques.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140628105322170_drop_and_clean_case_indent_dates_uniques.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93C117BF21FAB3491CFB08CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYRIdentityManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>940BE97202808A1C74557C88</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AF51F2C0EC92317AD4399F8C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>97828714AE3F2176D41F034F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3E79FE0EC94739A38E763937</string>
-				<string>4E905D1E529B1F2DB373035C</string>
-				<string>91C0D724C03CAB6E2D54B905</string>
-				<string>0619C946F57B388EC14EDEDA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-LayerIdentity-LayerIdentity</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>97AEDC56D49969161DA93A0B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LayerIdentity.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A55CF5D7418C05EAE11EF580</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-LayerIdentity-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A963BC8EB58A90214CC27E85</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-LayerIdentity-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ACCA4D3835AD8D428502C1F9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E26BAD0B23D9B851A6DD3ADB</string>
-				<string>0B26049B74F881CE5EEB258F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF51F2C0EC92317AD4399F8C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4A09EA7B6C5792142EC29F57</string>
-				<string>97828714AE3F2176D41F034F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>LayerIdentity</string>
-			<key>path</key>
-			<string>..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B1633786F85DAB69DD5C2F6A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20141007110138268_client-id-indices.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141007110138268_client-id-indices.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B16FDD01FC93349FE80985B0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>B66EE9C2A9B6E78402A9015C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8936284416286B7D5EFDD7CC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>BD7A02FBADAA4C4F9939AE8E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20140706185141044_add_object_identifiers.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140706185141044_add_object_identifiers.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C8A60D95F03139C16FA8EC3D</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>13A2776351570F4B9D4D7057</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>202CF01DAF427CEA3142D925</string>
-			<key>remoteInfo</key>
-			<string>Pods-LayerIdentity-LayerIdentity</string>
-		</dict>
-		<key>C8C9F68B5F747DB1FBF3CE33</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>69E566144D0E5E117E649407</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CC0E0C064831C93C83DDEB52</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8E657F722603420FA99EADE4</string>
-				<string>40EB96590F5F8005B8760165</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CF9A4B66C75B327153D4F59A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20141006202908488_add_tombstone_duplicate_events_by_client_id.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141006202908488_add_tombstone_duplicate_events_by_client_id.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D8E05AF453BBC4AFEED8757B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6472BEA244D5A1C61046140C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DC5C88202E5CEB1F0CB78CBD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20140709095453868_drop_track_sending_of_messages.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140709095453868_drop_track_sending_of_messages.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E26BAD0B23D9B851A6DD3ADB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-LayerIdentity.a</string>
-			<key>path</key>
-			<string>libPods-LayerIdentity.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E6000B9D1AC5FB32D58B39F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20140701114842931_add_timestamps_back_to_messages.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140701114842931_add_timestamps_back_to_messages.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E767FB41046D646A2895C92F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20141002175255465_making_version_a_required_field.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141002175255465_making_version_a_required_field.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E8DAFEB20CFB9C897FD86B6D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4E905D1E529B1F2DB373035C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-LayerIdentity-LayerIdentity/Pods-LayerIdentity-LayerIdentity-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E92FE9794E9CE5B54F540725</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5661C77A22EC189F846F72F6</string>
-				<string>5EFA1701F31C22E7F4DDC8EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E983067C9D8B49AD1A9F604E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20140919115201707_create_synced_changes_table_and_decouple_models.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140919115201707_create_synced_changes_table_and_decouple_models.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ECF739896B97389AF3BF034F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-LayerIdentity-LayerIdentity</string>
-			<key>target</key>
-			<string>202CF01DAF427CEA3142D925</string>
-			<key>targetProxy</key>
-			<string>C8A60D95F03139C16FA8EC3D</string>
-		</dict>
-		<key>EE7C17DC5F4AB1989EA9E4FE</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0FA7984D060C4DFEA7873F33</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D8E05AF453BBC4AFEED8757B</string>
-				<string>C8C9F68B5F747DB1FBF3CE33</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>ECF739896B97389AF3BF034F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-LayerIdentity</string>
-			<key>productName</key>
-			<string>Pods-LayerIdentity</string>
-			<key>productReference</key>
-			<string>E26BAD0B23D9B851A6DD3ADB</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>F57C9229560A3B19E8AE0D07</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20140707082435390_drop_tombstone_trigger.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140707082435390_drop_tombstone_trigger.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F7FA257DE699C9513F31845A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-LayerIdentity-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FCB65CE270EACA3A381BA31C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>20141105082802353_add_unread_fields_to_models.sql</string>
-			<key>path</key>
-			<string>LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141105082802353_add_unread_fields_to_models.sql</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>13A2776351570F4B9D4D7057</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D128AB250DC3D9E855ADB44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D147D9BFB009C11FA0E81E2B /* UIKit.framework */; };
+		32F3342931BA6F511121A32C /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E972B87ABB94F277E6E19EA /* Pods-dummy.m */; };
+		344CA119FC76C8379A30475C /* LYRIdentityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F94D8A60D00BFEE3CB95C0CC /* LYRIdentityManager.h */; };
+		3B02FE62C69A46CFAE66CBCD /* Pods-LayerIdentity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D809190D52836D3A64A0CE /* Pods-LayerIdentity-dummy.m */; };
+		8D066E5A58A7D57CD43BFE24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C26B5AA44B7858A58209185 /* Foundation.framework */; };
+		DFBF93647A0FEEDF72CAC2E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C26B5AA44B7858A58209185 /* Foundation.framework */; };
+		F9E3F5023F3C353535F0ABA7 /* LYRIdentityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA11A24C1B25E851BD220AA /* LYRIdentityManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA219D1CC5B0808D2EE4AEE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C0040F90E74618CDC5DE99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 777AA13347A9A17D3007ACE4;
+			remoteInfo = "Pods-LayerIdentity";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00604198BFA406063862E17A /* 20140706185141044_add_object_identifiers.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20140706185141044_add_object_identifiers.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140706185141044_add_object_identifiers.sql"; sourceTree = "<group>"; };
+		0A52442F1649B4AF32551B33 /* libPods-LayerIdentity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LayerIdentity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BDA274B0CC963048F33FCCA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		106E3A13B11F29F4DF916831 /* 20140701095427050_add_trigger_for_messaging_receipts.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20140701095427050_add_trigger_for_messaging_receipts.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140701095427050_add_trigger_for_messaging_receipts.sql"; sourceTree = "<group>"; };
+		11246B569E39D28EA043FAF7 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		1868BF52C7694104E83DF849 /* 20140709095453868_drop_track_sending_of_messages.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20140709095453868_drop_track_sending_of_messages.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140709095453868_drop_track_sending_of_messages.sql"; sourceTree = "<group>"; };
+		1FA11A24C1B25E851BD220AA /* LYRIdentityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYRIdentityManager.m; sourceTree = "<group>"; };
+		201D274D934DFDF5FCDF62CD /* 20141002175510495_track_streams_and_stream_members_with_deleted_at_column.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20141002175510495_track_streams_and_stream_members_with_deleted_at_column.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141002175510495_track_streams_and_stream_members_with_deleted_at_column.sql"; sourceTree = "<group>"; };
+		2EBFF7266D46121D256FE94A /* 20140707175635814_add_is_draft_to_messages.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20140707175635814_add_is_draft_to_messages.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140707175635814_add_is_draft_to_messages.sql"; sourceTree = "<group>"; };
+		311654B6981C40024CB1777E /* 20140806143305965_add_created_at_to_conversations.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20140806143305965_add_created_at_to_conversations.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140806143305965_add_created_at_to_conversations.sql"; sourceTree = "<group>"; };
+		3A394DF9A54BC81CC448CFD6 /* 20141006140917614_add-client_id.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "20141006140917614_add-client_id.sql"; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141006140917614_add-client_id.sql"; sourceTree = "<group>"; };
+		3ADFD91B9C6998B680421ED9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C26B5AA44B7858A58209185 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3CEC93DA257A5577A7D3612F /* 20140717021208447_restore-lost-triggers.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "20140717021208447_restore-lost-triggers.sql"; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140717021208447_restore-lost-triggers.sql"; sourceTree = "<group>"; };
+		4A5ED9714FD2E3E8FDF6FE0D /* 20150316180034638_add-distinct-unqiue-flag-to-streams.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "20150316180034638_add-distinct-unqiue-flag-to-streams.sql"; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20150316180034638_add-distinct-unqiue-flag-to-streams.sql"; sourceTree = "<group>"; };
+		57CB3FDBD0FEEB575BB9B1F8 /* Pods-LayerIdentity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LayerIdentity-prefix.pch"; sourceTree = "<group>"; };
+		57D5605BA490F71A5202F7A4 /* 20150131122302694_add_indexes_for_unread.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20150131122302694_add_indexes_for_unread.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20150131122302694_add_indexes_for_unread.sql"; sourceTree = "<group>"; };
+		580A9267CFA0CDEB00B0A7E8 /* 20141105082802353_add_unread_fields_to_models.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20141105082802353_add_unread_fields_to_models.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141105082802353_add_unread_fields_to_models.sql"; sourceTree = "<group>"; };
+		5B17E05E4CCADC04191F962F /* 20140701114842931_add_timestamps_back_to_messages.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20140701114842931_add_timestamps_back_to_messages.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140701114842931_add_timestamps_back_to_messages.sql"; sourceTree = "<group>"; };
+		63E94B7938593FCAAC5515E3 /* LayerKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LayerKit.framework; path = LayerKit.embeddedframework/LayerKit.framework; sourceTree = "<group>"; };
+		6D5EB4A6028EBEC4CBFFA0EE /* 20140715104949748_drop_message_index_table_add_message_index_column.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20140715104949748_drop_message_index_table_add_message_index_column.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140715104949748_drop_message_index_table_add_message_index_column.sql"; sourceTree = "<group>"; };
+		6E972B87ABB94F277E6E19EA /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		71D051AD11F7BDC3EFB523E2 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		7230A490D01544F077C22FCE /* 20141027152445461_fix_invalid_identifier_types.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20141027152445461_fix_invalid_identifier_types.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141027152445461_fix_invalid_identifier_types.sql"; sourceTree = "<group>"; };
+		77BEC5DCEF343F9727674B89 /* 20141007110138268_client-id-indices.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "20141007110138268_client-id-indices.sql"; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141007110138268_client-id-indices.sql"; sourceTree = "<group>"; };
+		78B6BA0DABB45EF97B9D9656 /* 20141009125010758_indices.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20141009125010758_indices.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141009125010758_indices.sql"; sourceTree = "<group>"; };
+		7D4A4598404DA309277562EE /* 20141002175255465_making_version_a_required_field.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20141002175255465_making_version_a_required_field.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141002175255465_making_version_a_required_field.sql"; sourceTree = "<group>"; };
+		7DA517CB18B9803FC22EBA61 /* 20140628105322170_drop_and_clean_case_indent_dates_uniques.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20140628105322170_drop_and_clean_case_indent_dates_uniques.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140628105322170_drop_and_clean_case_indent_dates_uniques.sql"; sourceTree = "<group>"; };
+		8413565A125ACD6C25AF2B43 /* layer-client-messaging-schema.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = "layer-client-messaging-schema.bundle"; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle"; sourceTree = "<group>"; };
+		8617844B0EFEEC80B988E9B0 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		896101900B556521F3D8CEAC /* Pods-LayerIdentity-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LayerIdentity-Private.xcconfig"; sourceTree = "<group>"; };
+		8A1EDB1FC913A5D9AF8CA743 /* 20141110114425514_remote_keyed_values.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20141110114425514_remote_keyed_values.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141110114425514_remote_keyed_values.sql"; sourceTree = "<group>"; };
+		8D5A1144B1DC6865BD655D45 /* 20140701144934637_adjust_constraints_of_receipts_table.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20140701144934637_adjust_constraints_of_receipts_table.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140701144934637_adjust_constraints_of_receipts_table.sql"; sourceTree = "<group>"; };
+		92880B23936158F5F7070FEC /* 20150319131356212_add-trigger-for-event-stream-id-update.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "20150319131356212_add-trigger-for-event-stream-id-update.sql"; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20150319131356212_add-trigger-for-event-stream-id-update.sql"; sourceTree = "<group>"; };
+		9508A050AAC15821E4B5FC3C /* 20140919115201707_create_synced_changes_table_and_decouple_models.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20140919115201707_create_synced_changes_table_and_decouple_models.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140919115201707_create_synced_changes_table_and_decouple_models.sql"; sourceTree = "<group>"; };
+		9FE217B227C481121D93A25C /* 20141006202908488_add_tombstone_duplicate_events_by_client_id.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20141006202908488_add_tombstone_duplicate_events_by_client_id.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141006202908488_add_tombstone_duplicate_events_by_client_id.sql"; sourceTree = "<group>"; };
+		A04FC0126A587FD91D816085 /* 20140708154438053_change_insert_trigger_on_messages.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20140708154438053_change_insert_trigger_on_messages.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140708154438053_change_insert_trigger_on_messages.sql"; sourceTree = "<group>"; };
+		A1954A56868F88E94EB86B5E /* 20150207191203003_create_block_list.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20150207191203003_create_block_list.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20150207191203003_create_block_list.sql"; sourceTree = "<group>"; };
+		A8F3B4900B56119A00B6504E /* 20150202170209118_flatten_transfer_flags_into_single_transfer_status_integer.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20150202170209118_flatten_transfer_flags_into_single_transfer_status_integer.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20150202170209118_flatten_transfer_flags_into_single_transfer_status_integer.sql"; sourceTree = "<group>"; };
+		B4990DC94EEF603CDC4E832E /* 20141124205020533_external_content.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20141124205020533_external_content.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141124205020533_external_content.sql"; sourceTree = "<group>"; };
+		B6F41E0F3082CAFAA21F5508 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCE0DA490D96BB556B531602 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		BDB539F9C613F4814FD2F741 /* 20141009125004707_min-max-synced-seq.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "20141009125004707_min-max-synced-seq.sql"; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141009125004707_min-max-synced-seq.sql"; sourceTree = "<group>"; };
+		CBB67DABAB8D217A35F77136 /* 20140707082435390_drop_tombstone_trigger.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20140707082435390_drop_tombstone_trigger.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140707082435390_drop_tombstone_trigger.sql"; sourceTree = "<group>"; };
+		D147D9BFB009C11FA0E81E2B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D3B3AF7222622C23FEC7BDDF /* 20140820112730372_add_unique_constraint_to_message_recipient_status.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20140820112730372_add_unique_constraint_to_message_recipient_status.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140820112730372_add_unique_constraint_to_message_recipient_status.sql"; sourceTree = "<group>"; };
+		D5DC3A4E7F1F91FE856EA8A9 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		DC31DCCF064228D48398E17B /* Pods-LayerIdentity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LayerIdentity.xcconfig"; sourceTree = "<group>"; };
+		DC8FD1F9A37A5E93CE24F620 /* 20140708092626927_adjust_triggers_for_drafting.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20140708092626927_adjust_triggers_for_drafting.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140708092626927_adjust_triggers_for_drafting.sql"; sourceTree = "<group>"; };
+		DE3FF59550FDC0D4CC0802EF /* 20150210133608257_adding_version_to_message_parts.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20150210133608257_adding_version_to_message_parts.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20150210133608257_adding_version_to_message_parts.sql"; sourceTree = "<group>"; };
+		DFE5C51E3B80FA97475E1436 /* 20140717013309255_drop_is_draft_from_messages.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20140717013309255_drop_is_draft_from_messages.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140717013309255_drop_is_draft_from_messages.sql"; sourceTree = "<group>"; };
+		DFFFA805960E33BEF8B589E4 /* 20141002091849299_correct-track_inserts_of_events_delete.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "20141002091849299_correct-track_inserts_of_events_delete.sql"; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20141002091849299_correct-track_inserts_of_events_delete.sql"; sourceTree = "<group>"; };
+		E3D809190D52836D3A64A0CE /* Pods-LayerIdentity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LayerIdentity-dummy.m"; sourceTree = "<group>"; };
+		EC19E7CB743812CD9BAA5618 /* 20140628114921198_remove_creator_id_from_tombstone_wipe_for_ordering.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20140628114921198_remove_creator_id_from_tombstone_wipe_for_ordering.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20140628114921198_remove_creator_id_from_tombstone_wipe_for_ordering.sql"; sourceTree = "<group>"; };
+		F94D8A60D00BFEE3CB95C0CC /* LYRIdentityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYRIdentityManager.h; sourceTree = "<group>"; };
+		F999584352ECC3BB50E4DF9B /* 20150330135300206_add_name_to_events_and_messages_tables.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 20150330135300206_add_name_to_events_and_messages_tables.sql; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/20150330135300206_add_name_to_events_and_messages_tables.sql"; sourceTree = "<group>"; };
+		FB81A22EF858B6BE73041789 /* layer-client-messaging-schema.sql */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "layer-client-messaging-schema.sql"; path = "LayerKit.embeddedframework/LayerKit.framework/Versions/A/Resources/layer-client-messaging-schema.bundle/layer-client-messaging-schema.sql"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73397BDE36ECDB0FAF041221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D066E5A58A7D57CD43BFE24 /* Foundation.framework in Frameworks */,
+				2D128AB250DC3D9E855ADB44 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB04D0A94EE50C65F7934D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBF93647A0FEEDF72CAC2E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B5A8FE58B6047E37D892493 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA5C21FCBD721588275C668F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A2E4115D289E32882BC5A5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63E94B7938593FCAAC5515E3 /* LayerKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30705B86D4ED2F9095508C06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC0EFBCA38B7901794F7A4EC /* LayerKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		448DC2E0FE0063F36E031BE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8617844B0EFEEC80B988E9B0 /* Pods-acknowledgements.markdown */,
+				11246B569E39D28EA043FAF7 /* Pods-acknowledgements.plist */,
+				6E972B87ABB94F277E6E19EA /* Pods-dummy.m */,
+				D5DC3A4E7F1F91FE856EA8A9 /* Pods-environment.h */,
+				71D051AD11F7BDC3EFB523E2 /* Pods-resources.sh */,
+				0BDA274B0CC963048F33FCCA /* Pods.debug.xcconfig */,
+				BCE0DA490D96BB556B531602 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		54DFDF738D81E93359E22650 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC31DCCF064228D48398E17B /* Pods-LayerIdentity.xcconfig */,
+				896101900B556521F3D8CEAC /* Pods-LayerIdentity-Private.xcconfig */,
+				E3D809190D52836D3A64A0CE /* Pods-LayerIdentity-dummy.m */,
+				57CB3FDBD0FEEB575BB9B1F8 /* Pods-LayerIdentity-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/Pods-LayerIdentity";
+			sourceTree = "<group>";
+		};
+		7DDF1ED0893D58733803EBB1 = {
+			isa = PBXGroup;
+			children = (
+				B6F41E0F3082CAFAA21F5508 /* Podfile */,
+				BB6F065FE1A99D57F81161F3 /* Development Pods */,
+				1B5A8FE58B6047E37D892493 /* Frameworks */,
+				30705B86D4ED2F9095508C06 /* Pods */,
+				B88C4A51A6EFA56C0ACB358F /* Products */,
+				828E7A9FDF493A71685F2A00 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		828E7A9FDF493A71685F2A00 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				448DC2E0FE0063F36E031BE3 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A9B6235F1FA879FDD93B3678 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7DA517CB18B9803FC22EBA61 /* 20140628105322170_drop_and_clean_case_indent_dates_uniques.sql */,
+				EC19E7CB743812CD9BAA5618 /* 20140628114921198_remove_creator_id_from_tombstone_wipe_for_ordering.sql */,
+				106E3A13B11F29F4DF916831 /* 20140701095427050_add_trigger_for_messaging_receipts.sql */,
+				5B17E05E4CCADC04191F962F /* 20140701114842931_add_timestamps_back_to_messages.sql */,
+				8D5A1144B1DC6865BD655D45 /* 20140701144934637_adjust_constraints_of_receipts_table.sql */,
+				00604198BFA406063862E17A /* 20140706185141044_add_object_identifiers.sql */,
+				CBB67DABAB8D217A35F77136 /* 20140707082435390_drop_tombstone_trigger.sql */,
+				2EBFF7266D46121D256FE94A /* 20140707175635814_add_is_draft_to_messages.sql */,
+				DC8FD1F9A37A5E93CE24F620 /* 20140708092626927_adjust_triggers_for_drafting.sql */,
+				A04FC0126A587FD91D816085 /* 20140708154438053_change_insert_trigger_on_messages.sql */,
+				1868BF52C7694104E83DF849 /* 20140709095453868_drop_track_sending_of_messages.sql */,
+				6D5EB4A6028EBEC4CBFFA0EE /* 20140715104949748_drop_message_index_table_add_message_index_column.sql */,
+				DFE5C51E3B80FA97475E1436 /* 20140717013309255_drop_is_draft_from_messages.sql */,
+				3CEC93DA257A5577A7D3612F /* 20140717021208447_restore-lost-triggers.sql */,
+				311654B6981C40024CB1777E /* 20140806143305965_add_created_at_to_conversations.sql */,
+				D3B3AF7222622C23FEC7BDDF /* 20140820112730372_add_unique_constraint_to_message_recipient_status.sql */,
+				9508A050AAC15821E4B5FC3C /* 20140919115201707_create_synced_changes_table_and_decouple_models.sql */,
+				DFFFA805960E33BEF8B589E4 /* 20141002091849299_correct-track_inserts_of_events_delete.sql */,
+				7D4A4598404DA309277562EE /* 20141002175255465_making_version_a_required_field.sql */,
+				201D274D934DFDF5FCDF62CD /* 20141002175510495_track_streams_and_stream_members_with_deleted_at_column.sql */,
+				3A394DF9A54BC81CC448CFD6 /* 20141006140917614_add-client_id.sql */,
+				9FE217B227C481121D93A25C /* 20141006202908488_add_tombstone_duplicate_events_by_client_id.sql */,
+				77BEC5DCEF343F9727674B89 /* 20141007110138268_client-id-indices.sql */,
+				BDB539F9C613F4814FD2F741 /* 20141009125004707_min-max-synced-seq.sql */,
+				78B6BA0DABB45EF97B9D9656 /* 20141009125010758_indices.sql */,
+				7230A490D01544F077C22FCE /* 20141027152445461_fix_invalid_identifier_types.sql */,
+				580A9267CFA0CDEB00B0A7E8 /* 20141105082802353_add_unread_fields_to_models.sql */,
+				8A1EDB1FC913A5D9AF8CA743 /* 20141110114425514_remote_keyed_values.sql */,
+				B4990DC94EEF603CDC4E832E /* 20141124205020533_external_content.sql */,
+				57D5605BA490F71A5202F7A4 /* 20150131122302694_add_indexes_for_unread.sql */,
+				A8F3B4900B56119A00B6504E /* 20150202170209118_flatten_transfer_flags_into_single_transfer_status_integer.sql */,
+				A1954A56868F88E94EB86B5E /* 20150207191203003_create_block_list.sql */,
+				DE3FF59550FDC0D4CC0802EF /* 20150210133608257_adding_version_to_message_parts.sql */,
+				4A5ED9714FD2E3E8FDF6FE0D /* 20150316180034638_add-distinct-unqiue-flag-to-streams.sql */,
+				92880B23936158F5F7070FEC /* 20150319131356212_add-trigger-for-event-stream-id-update.sql */,
+				F999584352ECC3BB50E4DF9B /* 20150330135300206_add_name_to_events_and_messages_tables.sql */,
+				8413565A125ACD6C25AF2B43 /* layer-client-messaging-schema.bundle */,
+				FB81A22EF858B6BE73041789 /* layer-client-messaging-schema.sql */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AFFBC6D2BF680E3D17099326 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				F94D8A60D00BFEE3CB95C0CC /* LYRIdentityManager.h */,
+				1FA11A24C1B25E851BD220AA /* LYRIdentityManager.m */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		B88C4A51A6EFA56C0ACB358F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ADFD91B9C6998B680421ED9 /* libPods.a */,
+				0A52442F1649B4AF32551B33 /* libPods-LayerIdentity.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B996D241FD074DDD7A43035E /* LayerIdentity */ = {
+			isa = PBXGroup;
+			children = (
+				AFFBC6D2BF680E3D17099326 /* Code */,
+				54DFDF738D81E93359E22650 /* Support Files */,
+			);
+			name = LayerIdentity;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BB6F065FE1A99D57F81161F3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B996D241FD074DDD7A43035E /* LayerIdentity */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DA5C21FCBD721588275C668F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3C26B5AA44B7858A58209185 /* Foundation.framework */,
+				D147D9BFB009C11FA0E81E2B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC0EFBCA38B7901794F7A4EC /* LayerKit */ = {
+			isa = PBXGroup;
+			children = (
+				2A2E4115D289E32882BC5A5E /* Frameworks */,
+				A9B6235F1FA879FDD93B3678 /* Resources */,
+			);
+			path = LayerKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E30924307FDEDA6991648F1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344CA119FC76C8379A30475C /* LYRIdentityManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		777AA13347A9A17D3007ACE4 /* Pods-LayerIdentity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91447DE97DA7436343431871 /* Build configuration list for PBXNativeTarget "Pods-LayerIdentity" */;
+			buildPhases = (
+				1DE90900691C8B1664DF7303 /* Sources */,
+				73397BDE36ECDB0FAF041221 /* Frameworks */,
+				E30924307FDEDA6991648F1F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LayerIdentity";
+			productName = "Pods-LayerIdentity";
+			productReference = 0A52442F1649B4AF32551B33 /* libPods-LayerIdentity.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E609084CDCCD894FE1079029 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AEFD99E900BC108F2B1580D /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				54EF13BF232F062DBD561B2C /* Sources */,
+				9FB04D0A94EE50C65F7934D7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F77AC0ACB0B6F63AD0AC0B /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 3ADFD91B9C6998B680421ED9 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C0040F90E74618CDC5DE99E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 516DC757189ED93338B29CFA /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DDF1ED0893D58733803EBB1;
+			productRefGroup = B88C4A51A6EFA56C0ACB358F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E609084CDCCD894FE1079029 /* Pods */,
+				777AA13347A9A17D3007ACE4 /* Pods-LayerIdentity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DE90900691C8B1664DF7303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E3F5023F3C353535F0ABA7 /* LYRIdentityManager.m in Sources */,
+				3B02FE62C69A46CFAE66CBCD /* Pods-LayerIdentity-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54EF13BF232F062DBD561B2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F3342931BA6F511121A32C /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84F77AC0ACB0B6F63AD0AC0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LayerIdentity";
+			target = 777AA13347A9A17D3007ACE4 /* Pods-LayerIdentity */;
+			targetProxy = CA219D1CC5B0808D2EE4AEE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		65BF90735351D09BC378234A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE0DA490D96BB556B531602 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6E1916AC44B0E05524FDE101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896101900B556521F3D8CEAC /* Pods-LayerIdentity-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LayerIdentity/Pods-LayerIdentity-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		95707062D5B63C7FB5566C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BDA274B0CC963048F33FCCA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9D4247845BD0A75E1B06A157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896101900B556521F3D8CEAC /* Pods-LayerIdentity-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LayerIdentity/Pods-LayerIdentity-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BCB5D25718887EAFA5BE9C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C9176457E97418E1427CE84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AEFD99E900BC108F2B1580D /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95707062D5B63C7FB5566C96 /* Debug */,
+				65BF90735351D09BC378234A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516DC757189ED93338B29CFA /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB5D25718887EAFA5BE9C19 /* Debug */,
+				C9176457E97418E1427CE84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91447DE97DA7436343431871 /* Build configuration list for PBXNativeTarget "Pods-LayerIdentity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1916AC44B0E05524FDE101 /* Debug */,
+				9D4247845BD0A75E1B06A157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C0040F90E74618CDC5DE99E /* Project object */;
+}

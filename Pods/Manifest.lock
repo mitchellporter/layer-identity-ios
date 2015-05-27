@@ -1,17 +1,17 @@
 PODS:
-  - LayerIdentity (0.1.0):
-    - LayerKit
-  - LayerKit (0.9.6)
+  - LayerIdentity (0.1.0)
+  - LayerKit (0.13.2)
 
 DEPENDENCIES:
   - LayerIdentity (from `.`)
+  - LayerKit
 
 EXTERNAL SOURCES:
   LayerIdentity:
-    :path: .
+    :path: "."
 
 SPEC CHECKSUMS:
-  LayerIdentity: 7f5b8b0e3f4c2645016f657a79da571c7d2cabf6
-  LayerKit: 0e07ecf202c88c5eb17fa4f52301e0dea89afe7f
+  LayerIdentity: 1637f5e60a1820a2f85857384df5bbcfbeb2b496
+  LayerKit: 5a5cdfed55b3c56e7a6bb23323ecca1ad1e6183f
 
-COCOAPODS: 0.36.0.beta.1
+COCOAPODS: 0.37.0

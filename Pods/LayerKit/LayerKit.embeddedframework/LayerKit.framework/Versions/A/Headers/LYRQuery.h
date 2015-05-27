@@ -85,7 +85,7 @@ typedef NS_ENUM(NSUInteger, LYRQueryResultType) {
  @param queryableClass A class that conforms to the `LYRQueryable` protocol that is to be queried.
  @return A newly created query object.
  */
-+ (instancetype)queryWithClass:(Class<LYRQueryable>)queryableClass;
++ (instancetype)queryWithQueryableClass:(Class<LYRQueryable>)queryableClass;
 
 /**
  @abstract Returns the queryable class that the receiver is bound to.
@@ -133,5 +133,12 @@ typedef NS_ENUM(NSUInteger, LYRQueryResultType) {
  @discussion The default is `LYRQueryResultTypeObjects`.
  */
 @property (nonatomic) LYRQueryResultType resultType;
+
+@end
+
+@interface LYRQuery (Deprecated)
+
+// DEPRECATED: Use `LYQuery`'s `queryWithQueryableClass:` instead.
++ (instancetype)queryWithClass:(Class<LYRQueryable>)queryableClass __deprecated;
 
 @end

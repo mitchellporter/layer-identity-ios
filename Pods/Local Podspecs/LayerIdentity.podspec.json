@@ -17,10 +17,5 @@
   "source_files": "Code",
   "ios": {
     "frameworks": "UIKit"
-  },
-  "dependencies": {
-    "LayerKit": [
-
-    ]
   }
 }

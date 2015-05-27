@@ -15,4 +15,5 @@
 - (void)identityTokenForUserIdentifier:(NSString *)userIdentifier
                                  nonce:(NSString *)nonce
                             completion:(void(^)(NSString *identityToken, NSError *error))completion;
+
 @end

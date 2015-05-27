@@ -6,6 +6,22 @@
 //  Copyright (c) 2014 Layer. All rights reserved.
 //
 
+///---------------
+/// @name Typedefs
+///---------------
+
+/**
+ @abstract A type representing an absolute logical position of an object within a sequence.
+ */
+typedef uint64_t LYRPosition;
+#define LYRPositionNotDefined UINT64_MAX
+
+/**
+ @abstract A type representing a content size in bytes.
+ */
+typedef uint64_t LYRSize;
+#define LYRSizeNotDefined UINT64_MAX
+
 /**
  @abstract The `LYRDeletionMode` enumeration defines the available modes for deleting content.
  */
@@ -29,9 +45,9 @@ typedef NS_ENUM(NSUInteger, LYRDeletionMode) {
 ///---------------------
 
 typedef NS_ENUM(NSInteger, LYRObjectChangeType) {
-	LYRObjectChangeTypeCreate,
-	LYRObjectChangeTypeUpdate,
-	LYRObjectChangeTypeDelete
+	LYRObjectChangeTypeCreate   = 0,
+	LYRObjectChangeTypeUpdate   = 1,
+	LYRObjectChangeTypeDelete   = 2
 };
 
 /**
@@ -50,7 +66,7 @@ extern NSString *const LYRObjectChangeOldValueKey; // The value before synchroni
 extern NSString *const LYRObjectChangeNewValueKey; // The value after synchronization
 
 ///-----------------------
-/// @name Typing indicator
+/// @name Typing Indicator
 ///-----------------------
 
 /**
@@ -60,4 +76,16 @@ typedef NS_ENUM(NSUInteger, LYRTypingIndicator) {
     LYRTypingDidBegin   = 0,
     LYRTypingDidPause   = 1,
     LYRTypingDidFinish  = 2
+};
+
+///-----------------------
+/// @name Content Transfer
+///-----------------------
+
+/**
+ @abstract The `LYRContentTransferType` values describe the type of a transfer. Used when LYRClient calls to the delegate via `layerClient:willBeginContentTransfer:ofObject:withProgress` and `layerClient:didFinishContentTransfer:ofObject:` methods.
+ */
+typedef NS_ENUM(NSInteger, LYRContentTransferType) {
+    LYRContentTransferTypeDownload              = 0,
+    LYRContentTransferTypeUpload                = 1
 };

@@ -1,11 +1,9 @@
 # Uncomment this line to define a global platform for your project
 # platform :ios, '6.0'
 
-target 'LayerIdentity' do
-  pod 'LayerIdentity', path: '.'
-end
+link_with 'LayerIdentity', 'LayerIdentityTests'
 
-target 'LayerIdentityTests' do
+pod 'LayerIdentity', path: '.'
+pod 'LayerKit'
 
-end
 

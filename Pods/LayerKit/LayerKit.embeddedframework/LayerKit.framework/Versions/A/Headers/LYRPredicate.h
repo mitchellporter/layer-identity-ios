@@ -83,7 +83,7 @@ typedef NS_ENUM(NSUInteger, LYRPredicateOperator) {
  @property value The reference value to use in the comparison.
  @returns A newly created predicate object.
  */
-+ (instancetype)predicateWithProperty:(NSString *)property operator:(LYRPredicateOperator)predicateOperator value:(id)value;
++ (instancetype)predicateWithProperty:(NSString *)property predicateOperator:(LYRPredicateOperator)predicateOperator value:(id)value;
 
 ///-------------------------------------
 /// @name Accessing Predicate Attributes
@@ -154,5 +154,12 @@ typedef NS_ENUM(NSUInteger, LYRCompoundPredicateType) {
  @abstract The receiver's subpredicates;
  */
 @property (nonatomic, readonly) NSArray *subpredicates;
+
+@end
+
+@interface LYRPredicate (Deprecated)
+
+// DEPRECATED: Use `LYRPredicate`'s `predicateWithProperty:predicateOperator:value:` instead.
++ (instancetype)predicateWithProperty:(NSString *)property operator:(LYRPredicateOperator)predicateOperator value:(id)value __deprecated;
 
 @end
